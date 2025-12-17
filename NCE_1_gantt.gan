@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-09-01" view-index="0" gantt-divider-location="809" resource-divider-location="389" version="2.8.11" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2030-01-01" view-index="0" gantt-divider-location="1041" resource-divider-location="389" version="2.8.11" locale="fr_FR">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="293" order="0"/>
-        <field id="tpd4" name="Date de début" width="16" order="1"/>
-        <field id="tpd5" name="Date de fin" width="15" order="2"/>
-        <field id="tpd13" name="Ressources" width="481" order="3"/>
+        <field id="tpd3" name="Nom" width="365" order="0"/>
+        <field id="tpd4" name="Date de début" width="112" order="1"/>
+        <field id="tpd5" name="Date de fin" width="126" order="2"/>
+        <field id="tpd13" name="Ressources" width="434" order="3"/>
         <timeline>
             <![CDATA[52]]>
         </timeline>
@@ -40,8 +40,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Discovery &amp; cadrage produit (marché, positionnement, besoins, specs)" color="#ff3333" meeting="false" start="2026-01-05" duration="15" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="true">
-            <task id="254" name="Analyse du marché &amp; problématique utilisateur" color="#8cb6ce" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Discovery &amp; cadrage produit (marché, positionnement, besoins, specs)" color="#ff3333" meeting="false" start="2026-01-05" duration="115" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="254" name="Analyse du marché &amp; problématique utilisateur" color="#8cb6ce" meeting="false" start="2026-01-05" duration="45" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[- identifier le problème réel
 
@@ -49,7 +49,7 @@
                 </notes>
                 <depend id="262" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="256" name="Définition des besoins fonctionnels &amp; usages" color="#8cb6ce" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+            <task id="256" name="Définition des besoins fonctionnels &amp; usages" color="#8cb6ce" meeting="false" start="2026-01-05" duration="45" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[- cas d’usage
 
@@ -59,7 +59,7 @@
                 </notes>
                 <depend id="262" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="258" name="Benchmark solutions existantes &amp; différenciation" color="#99ff66" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="0" expand="true">
+            <task id="258" name="Benchmark solutions existantes &amp; différenciation" color="#99ff66" meeting="false" start="2026-01-05" duration="45" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="0" expand="true">
                 <notes>
                     <![CDATA[- concurrence
 
@@ -69,7 +69,7 @@
                 </notes>
                 <depend id="262" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="262" name="Cadrage produit &amp; vision initiale" color="#ff9933" meeting="false" start="2026-01-19" duration="5" complete="0" thirdDate="2025-09-01" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="262" name="Cadrage produit &amp; vision initiale" color="#ff9933" meeting="false" start="2026-03-09" duration="70" complete="0" thirdDate="2025-09-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[- périmètre V1
 
@@ -79,90 +79,90 @@
                 </notes>
             </task>
         </task>
-        <task id="1" name="Proof of Concept (PoC) (valider techno IA/capteurs + faisabilité Drive)" color="#ff3333" meeting="false" start="2026-02-16" duration="32" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="true">
-            <task id="48" name="Analyse de faisabilité IA (vision &amp; reconnaissance produits)" color="#ff3333" meeting="false" start="2026-02-16" duration="10" complete="0" thirdDate="2025-03-03" thirdDate-constraint="0" priority="4" expand="true">
+        <task id="1" name="Proof of Concept (PoC) (valider techno IA/capteurs + faisabilité Drive)" color="#ff3333" meeting="false" start="2026-06-15" duration="200" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="48" name="Analyse de faisabilité IA (vision &amp; reconnaissance produits)" color="#ff3333" meeting="false" start="2026-06-15" duration="80" complete="0" thirdDate="2025-03-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Valider que la reconnaissance produit est faisable (qualité image, classes, erreurs).]]>
                 </notes>
                 <depend id="66" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="52" name="Étude capteurs &amp; contraintes hardware" color="#ff3333" meeting="false" start="2026-02-23" duration="8" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="52" name="Étude capteurs &amp; contraintes hardware" color="#ff3333" meeting="false" start="2026-06-15" duration="80" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Vérifier caméras, éclairage, positionnement, contraintes frigo réel.]]>
                 </notes>
                 <depend id="66" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="55" name="Étude intégration Drive / API retailers" color="#ff3333" meeting="false" start="2026-02-23" duration="6" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="55" name="Étude intégration Drive / API retailers" color="#ff3333" meeting="false" start="2026-06-15" duration="60" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Vérifier faisabilité panier automatique, limitations API, dépendance partenaires.]]>
                 </notes>
                 <depend id="66" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="66" name="Architecture technique globale (IA + hardware + backend)" color="#ff3333" meeting="false" start="2026-03-05" duration="5" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="66" name="Architecture technique globale (IA + hardware + backend)" color="#ff3333" meeting="false" start="2026-10-05" duration="40" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Schéma clair du système Smart Fridge (edge AI, cloud, mobile).]]>
                 </notes>
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="87" name="Prototype logiciel de démonstration (mock / POC)" color="#ff9933" meeting="false" start="2026-03-12" duration="10" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="87" name="Prototype logiciel de démonstration (mock / POC)" color="#ff9933" meeting="false" start="2026-11-30" duration="60" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Démo fonctionnelle (simulation inventaire → ajout panier).]]>
                 </notes>
                 <depend id="96" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="92" name="Analyse RGPD &amp; Privacy by Design" color="#ff9933" meeting="false" start="2026-03-12" duration="6" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="92" name="Analyse RGPD &amp; Privacy by Design" color="#ff9933" meeting="false" start="2026-11-30" duration="40" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Vérifier conformité caméra, données, traitement local.]]>
                 </notes>
                 <depend id="96" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="96" name="Consolidation résultats PoC" color="#ff9933" meeting="false" start="2026-03-26" duration="4" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="96" name="Consolidation résultats PoC" color="#ff9933" meeting="false" start="2027-02-22" duration="20" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Synthèse claire : faisable / risqué / non faisable.]]>
                 </notes>
                 <depend id="99" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="99" name="Go / No-Go PoC" color="#ff3333" meeting="true" start="2026-04-01" duration="0" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="99" name="Go / No-Go PoC" color="#ff3333" meeting="true" start="2027-03-22" duration="0" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[on passe au Prototype Alpha ou on stoppe.]]>
                 </notes>
             </task>
         </task>
-        <task id="2" name="Prototype Alpha (hardware + software intégré, labo)" color="#ff9933" meeting="false" start="2026-04-27" duration="60" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
-            <task id="106" name="Design hardware &amp; intégration capteurs" color="#ff9933" meeting="false" start="2026-04-27" duration="10" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="2" name="Prototype Alpha (hardware + software intégré, labo)" color="#ff9933" meeting="false" start="2027-03-23" duration="340" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="106" name="Design hardware &amp; intégration capteurs" color="#ff9933" meeting="false" start="2027-03-23" duration="80" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Définir position caméras, éclairage, contraintes mécaniques du frigo.]]>
                 </notes>
                 <depend id="108" type="2" difference="0" hardness="Strong"/>
                 <depend id="111" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="108" name="Intégration IA embarquée (edge AI)" color="#ff9933" meeting="false" start="2026-05-11" duration="12" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="108" name="Intégration IA embarquée (edge AI)" color="#ff9933" meeting="false" start="2027-07-13" duration="80" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Faire tourner un modèle IA localement sur hardware cible.]]>
                 </notes>
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="111" name="Backend &amp; API fonctionnelles" color="#ff9933" meeting="false" start="2026-05-11" duration="10" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="111" name="Backend &amp; API fonctionnelles" color="#ff9933" meeting="false" start="2027-07-13" duration="80" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Gestion inventaire, logique panier, simulation Drive.]]>
                 </notes>
                 <depend id="112" type="2" difference="0" hardness="Strong"/>
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="112" name="Application mobile / interface utilisateur" color="#8cb6ce" meeting="false" start="2026-05-25" duration="8" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
+            <task id="112" name="Application mobile / interface utilisateur" color="#8cb6ce" meeting="false" start="2027-11-02" duration="80" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[Interface simple pour visualiser stocks et actions.]]>
                 </notes>
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="113" name="Assemblage prototype &amp; tests labo" color="#ff9933" meeting="false" start="2026-06-04" duration="8" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="113" name="Assemblage prototype &amp; tests labo" color="#ff9933" meeting="false" start="2028-02-22" duration="60" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Vérifier que tout fonctionne ensemble.]]>
                 </notes>
-                <depend id="114" type="2" difference="0" hardness="Strong"/>
+                <depend id="140" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="140" name="Stabilisation &amp; corrections post-revue" color="#8cb6ce" meeting="false" start="2026-06-16" duration="24" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
+            <task id="140" name="Stabilisation &amp; corrections post-revue" color="#8cb6ce" meeting="false" start="2028-05-16" duration="40" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[- corriger les points soulevés en revue
 
@@ -170,17 +170,17 @@
 
 - préparer le passage en Beta]]>
                 </notes>
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
                 <depend id="144" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="114" name="Revue technique Prototype Alpha" color="#ff3333" meeting="true" start="2026-06-16" duration="0" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="114" name="Revue technique Prototype Alpha" color="#ff3333" meeting="true" start="2028-07-11" duration="0" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Décision : prêt pour tests utilisateurs (Prototype Beta) ou non.]]>
                 </notes>
-                <depend id="140" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="3" name="Prototype Beta / Pilot (tests utilisateurs, itérations, partenaire(s) retail)" color="#ff9933" meeting="false" project="true" start="2026-07-20" duration="76" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
-            <task id="144" name="Préparation du pilot (scénarios, métriques, protocole)" color="#ff9933" meeting="false" start="2026-07-20" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="3" name="Prototype Beta / Pilot (tests utilisateurs, itérations, partenaire(s) retail)" color="#ff9933" meeting="false" project="true" start="2028-07-11" duration="240" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="144" name="Préparation du pilot (scénarios, métriques, protocole)" color="#ff9933" meeting="false" start="2028-07-11" duration="40" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Définir :
 
@@ -192,13 +192,13 @@
                 </notes>
                 <depend id="149" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="149" name="Déploiement prototypes pilotes" color="#ff9933" meeting="false" start="2026-08-03" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="149" name="Déploiement prototypes pilotes" color="#ff9933" meeting="false" start="2028-09-05" duration="60" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Installer les prototypes chez les testeurs (ou sites pilotes).]]>
                 </notes>
                 <depend id="154" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="154" name="Tests utilisateurs &amp; collecte feedback" color="#ff9933" meeting="false" start="2026-08-24" duration="30" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="154" name="Tests utilisateurs &amp; collecte feedback" color="#ff9933" meeting="false" start="2028-11-28" duration="80" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Observer l’usage réel :
 
@@ -212,13 +212,13 @@
                 </notes>
                 <depend id="158" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="158" name="Ajustements fonctionnels &amp; correctifs" color="#8cb6ce" meeting="false" start="2026-10-05" duration="21" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+            <task id="158" name="Ajustements fonctionnels &amp; correctifs" color="#8cb6ce" meeting="false" start="2029-03-20" duration="60" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[Corriger les points bloquants sans refaire de R&D lourde.]]>
                 </notes>
                 <depend id="161" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="161" name="Go / No-Go Industrialisation" color="#ff3333" meeting="true" start="2026-11-03" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="161" name="Go / No-Go Industrialisation" color="#ff3333" meeting="true" start="2029-06-12" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Décision formelle :
 
@@ -229,34 +229,34 @@
                 <depend id="182" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="4" name="Industrialisation (DFM/DFT, supply chain, manufacturing plan)" color="#8cb6ce" meeting="false" start="2026-11-03" duration="65" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
-            <task id="182" name="DFM / DFT &amp; design industriel final" color="#ff9933" meeting="false" start="2026-11-03" duration="20" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="4" name="Industrialisation (DFM/DFT, supply chain, manufacturing plan)" color="#8cb6ce" meeting="false" start="2029-06-12" duration="170" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="182" name="DFM / DFT &amp; design industriel final" color="#ff9933" meeting="false" start="2029-06-12" duration="60" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Produit fabriquable en série.]]>
                 </notes>
                 <depend id="185" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="185" name="Sélection fournisseurs &amp; supply chain" color="#8cb6ce" meeting="false" start="2026-12-01" duration="20" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" expand="true">
+            <task id="185" name="Sélection fournisseurs &amp; supply chain" color="#8cb6ce" meeting="false" start="2029-09-04" duration="40" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[Sécuriser composants, coûts, délais.]]>
                 </notes>
                 <depend id="192" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="192" name="Préparation manufacturing &amp; QA" color="#ff9933" meeting="false" start="2026-12-29" duration="25" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="192" name="Préparation manufacturing &amp; QA" color="#ff9933" meeting="false" start="2029-10-30" duration="60" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Process industriel prêt (tests, QA, volumes).]]>
                 </notes>
                 <depend id="195" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="195" name="Revue readiness industrielle" color="#ff3333" meeting="true" start="2027-02-02" duration="0" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="195" name="Revue readiness industrielle" color="#ff3333" meeting="false" start="2030-01-22" duration="10" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Feu vert pour conformité + go-to-market.]]>
                 </notes>
                 <depend id="201" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="21" name="Conformité &amp; sécurité (CE, RGPD, cybersécurité IoT)" color="#ff9933" meeting="false" start="2027-02-02" duration="55" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="2" expand="false">
-            <task id="201" name="Analyse réglementaire &amp; périmètre conformité" color="#ff9933" meeting="false" start="2027-02-02" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="21" name="Conformité &amp; sécurité (CE, RGPD, cybersécurité IoT)" color="#ff9933" meeting="false" start="2030-02-05" duration="130" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="201" name="Analyse réglementaire &amp; périmètre conformité" color="#ff9933" meeting="false" start="2030-02-05" duration="30" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Identifier précisément :
 
@@ -268,7 +268,7 @@
                 </notes>
                 <depend id="204" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="204" name="Mise en conformité RGPD (privacy by design)" color="#ff9933" meeting="false" start="2027-02-16" duration="20" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="204" name="Mise en conformité RGPD (privacy by design)" color="#ff9933" meeting="false" start="2030-03-19" duration="40" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Traitement des données :
 
@@ -283,7 +283,7 @@
                 <depend id="207" type="2" difference="0" hardness="Strong"/>
                 <depend id="210" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="207" name="Sécurité IoT &amp; tests de vulnérabilité" color="#ff9933" meeting="false" start="2027-03-16" duration="25" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="207" name="Sécurité IoT &amp; tests de vulnérabilité" color="#ff9933" meeting="false" start="2030-05-14" duration="40" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Sécurisation :
 
@@ -297,7 +297,7 @@ mises à jour]]>
                 </notes>
                 <depend id="210" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="210" name="Dossier conformité &amp; marquage CE" color="#ff3333" meeting="true" start="2027-04-20" duration="0" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="210" name="Dossier conformité &amp; marquage CE" color="#ff3333" meeting="false" start="2030-07-09" duration="20" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Validation finale :
 
@@ -309,8 +309,8 @@ mises à jour]]>
                 <depend id="217" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="22" name="Go-to-market (pricing, branding, distribution, support)" color="#8cb6ce" meeting="false" start="2027-04-20" duration="35" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" expand="false">
-            <task id="214" name="Définition du pricing &amp; modèle économique" color="#ff9933" meeting="false" start="2027-04-20" duration="10" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="22" name="Go-to-market (pricing, branding, distribution, support)" color="#8cb6ce" meeting="false" start="2030-08-06" duration="110" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" expand="false">
+            <task id="214" name="Définition du pricing &amp; modèle économique" color="#ff9933" meeting="false" start="2030-08-06" duration="30" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Objectifs :
 
@@ -324,7 +324,7 @@ mises à jour]]>
                 </notes>
                 <depend id="225" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="217" name="Branding &amp; supports marketing" color="#ff9933" meeting="false" start="2027-04-20" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="217" name="Branding &amp; supports marketing" color="#ff9933" meeting="false" start="2030-08-06" duration="40" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Livrables :
 
@@ -337,7 +337,7 @@ mises à jour]]>
                 <depend id="222" type="2" difference="0" hardness="Strong"/>
                 <depend id="225" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="222" name="Mise en place canaux de distribution &amp; support" color="#ff9933" meeting="false" start="2027-05-11" duration="20" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="222" name="Mise en place canaux de distribution &amp; support" color="#ff9933" meeting="false" start="2030-10-01" duration="60" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Mise en place :
 
@@ -349,7 +349,7 @@ mises à jour]]>
                 </notes>
                 <depend id="225" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="225" name="Validation Go-to-market" color="#ff3333" meeting="true" start="2027-06-08" duration="0" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="225" name="Validation Go-to-market" color="#ff3333" meeting="false" start="2030-12-24" duration="10" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[Feu vert pour la pré-série.]]>
                 </notes>
@@ -357,8 +357,8 @@ mises à jour]]>
                 <depend id="232" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="23" name="Pré-série &amp; lancement (petite série, QA, launch)" color="#99ff66" meeting="false" start="2027-06-08" duration="25" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="0" expand="false">
-            <task id="229" name="Lancement de la pré-série (petite production)" color="#ff9933" meeting="false" start="2027-06-08" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="23" name="Pré-série &amp; lancement (petite série, QA, launch)" color="#99ff66" meeting="false" start="2031-01-07" duration="70" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="0" expand="false">
+            <task id="229" name="Lancement de la pré-série (petite production)" color="#ff9933" meeting="false" start="2031-01-07" duration="40" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[Objectifs :
 
@@ -369,7 +369,7 @@ mises à jour]]>
 - identifier défauts industriels précoces]]>
                 </notes>
             </task>
-            <task id="232" name="QA &amp; contrôle qualité pré-lancement" color="#ff3333" meeting="false" start="2027-06-08" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="232" name="QA &amp; contrôle qualité pré-lancement" color="#ff3333" meeting="false" start="2031-01-07" duration="40" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[- tests matériels
 
@@ -379,7 +379,7 @@ mises à jour]]>
                 </notes>
                 <depend id="235" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="235" name="Préparation opérationnelle du lancement" color="#ff9933" meeting="false" start="2027-06-29" duration="10" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="235" name="Préparation opérationnelle du lancement" color="#ff9933" meeting="false" start="2031-03-04" duration="30" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[- stock
 
@@ -391,15 +391,14 @@ mises à jour]]>
                 </notes>
                 <depend id="238" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="238" name="Lancement officiel" color="#ff3333" meeting="true" start="2027-07-13" duration="0" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="238" name="Lancement officiel" color="#ff3333" meeting="true" start="2031-04-15" duration="0" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[mise sur le marché effective]]>
                 </notes>
-                <depend id="241" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="24" name="Post-launch (retours, patches, V2 backlog)" color="#cccccc" meeting="false" start="2027-07-13" duration="45" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="3" expand="false">
-            <task id="241" name="Collecte retours utilisateurs &amp; support initial" color="#ff9933" meeting="false" start="2027-07-13" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="24" name="Post-launch (retours, patches, V2 backlog)" color="#cccccc" meeting="false" start="2031-04-15" duration="100" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="3" expand="true">
+            <task id="241" name="Collecte retours utilisateurs &amp; support initial" color="#ff9933" meeting="false" start="2031-04-15" duration="40" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[- retours utilisateurs
 
@@ -411,7 +410,7 @@ mises à jour]]>
                 </notes>
                 <depend id="244" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="244" name="Correctifs critiques &amp; patches rapides" color="#ff3333" meeting="false" start="2027-08-03" duration="20" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="244" name="Correctifs critiques &amp; patches rapides" color="#ff3333" meeting="false" start="2031-06-10" duration="40" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
                 <notes>
                     <![CDATA[- corrections bloquantes
 
@@ -421,7 +420,7 @@ mises à jour]]>
                 </notes>
                 <depend id="247" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="247" name="Analyse post-mortem &amp; backlog V2" color="#8cb6ce" meeting="false" start="2027-08-31" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+            <task id="247" name="Analyse post-mortem &amp; backlog V2" color="#8cb6ce" meeting="false" start="2031-08-05" duration="20" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[- ce qui a marché / échoué
 
@@ -431,7 +430,7 @@ mises à jour]]>
                 </notes>
                 <depend id="250" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="250" name="Clôture du cycle V1" color="#ff9933" meeting="true" start="2027-09-14" duration="0" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="250" name="Clôture du cycle V1" color="#ff9933" meeting="true" start="2031-09-02" duration="0" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
                 <notes>
                     <![CDATA[fin officielle du cycle produit V1]]>
                 </notes>
