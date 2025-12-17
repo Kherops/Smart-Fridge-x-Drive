@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-09-01" view-index="0" gantt-divider-location="809" resource-divider-location="389" version="2.8.11" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="293" order="0"/>
+        <field id="tpd4" name="Date de début" width="16" order="1"/>
+        <field id="tpd5" name="Date de fin" width="15" order="2"/>
+        <field id="tpd13" name="Ressources" width="481" order="3"/>
+        <timeline>
+            <![CDATA[52]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ff9933 #99ff66 #f4f4f4 #ff3333 #cccccc #00cc00 #99ff99 #9999ff #ff9999]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="255" order="0"/>
+        <field id="1" name="Rôle par défaut" width="130" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Discovery &amp; cadrage produit (marché, positionnement, besoins, specs)" color="#ff3333" meeting="false" start="2026-01-05" duration="15" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="254" name="Analyse du marché &amp; problématique utilisateur" color="#8cb6ce" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[- identifier le problème réel
+
+- vérifier qu’il existe une demande]]>
+                </notes>
+                <depend id="262" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="256" name="Définition des besoins fonctionnels &amp; usages" color="#8cb6ce" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[- cas d’usage
+
+- attentes utilisateur
+
+- contraintes d’usage]]>
+                </notes>
+                <depend id="262" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="258" name="Benchmark solutions existantes &amp; différenciation" color="#99ff66" meeting="false" start="2026-01-05" duration="10" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="0" expand="true">
+                <notes>
+                    <![CDATA[- concurrence
+
+- positionnement
+
+- valeur ajoutée du Smart Fridge]]>
+                </notes>
+                <depend id="262" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="262" name="Cadrage produit &amp; vision initiale" color="#ff9933" meeting="false" start="2026-01-19" duration="5" complete="0" thirdDate="2025-09-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[- périmètre V1
+
+- ce qu’on ne fera pas
+
+- préparation du PoC]]>
+                </notes>
+            </task>
+        </task>
+        <task id="1" name="Proof of Concept (PoC) (valider techno IA/capteurs + faisabilité Drive)" color="#ff3333" meeting="false" start="2026-02-16" duration="32" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="48" name="Analyse de faisabilité IA (vision &amp; reconnaissance produits)" color="#ff3333" meeting="false" start="2026-02-16" duration="10" complete="0" thirdDate="2025-03-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Valider que la reconnaissance produit est faisable (qualité image, classes, erreurs).]]>
+                </notes>
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="Étude capteurs &amp; contraintes hardware" color="#ff3333" meeting="false" start="2026-02-23" duration="8" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Vérifier caméras, éclairage, positionnement, contraintes frigo réel.]]>
+                </notes>
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="55" name="Étude intégration Drive / API retailers" color="#ff3333" meeting="false" start="2026-02-23" duration="6" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Vérifier faisabilité panier automatique, limitations API, dépendance partenaires.]]>
+                </notes>
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" name="Architecture technique globale (IA + hardware + backend)" color="#ff3333" meeting="false" start="2026-03-05" duration="5" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Schéma clair du système Smart Fridge (edge AI, cloud, mobile).]]>
+                </notes>
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+                <depend id="92" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" name="Prototype logiciel de démonstration (mock / POC)" color="#ff9933" meeting="false" start="2026-03-12" duration="10" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Démo fonctionnelle (simulation inventaire → ajout panier).]]>
+                </notes>
+                <depend id="96" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="92" name="Analyse RGPD &amp; Privacy by Design" color="#ff9933" meeting="false" start="2026-03-12" duration="6" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Vérifier conformité caméra, données, traitement local.]]>
+                </notes>
+                <depend id="96" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="96" name="Consolidation résultats PoC" color="#ff9933" meeting="false" start="2026-03-26" duration="4" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Synthèse claire : faisable / risqué / non faisable.]]>
+                </notes>
+                <depend id="99" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="99" name="Go / No-Go PoC" color="#ff3333" meeting="true" start="2026-04-01" duration="0" complete="0" thirdDate="2025-02-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[on passe au Prototype Alpha ou on stoppe.]]>
+                </notes>
+            </task>
+        </task>
+        <task id="2" name="Prototype Alpha (hardware + software intégré, labo)" color="#ff9933" meeting="false" start="2026-04-27" duration="60" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="106" name="Design hardware &amp; intégration capteurs" color="#ff9933" meeting="false" start="2026-04-27" duration="10" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Définir position caméras, éclairage, contraintes mécaniques du frigo.]]>
+                </notes>
+                <depend id="108" type="2" difference="0" hardness="Strong"/>
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="108" name="Intégration IA embarquée (edge AI)" color="#ff9933" meeting="false" start="2026-05-11" duration="12" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Faire tourner un modèle IA localement sur hardware cible.]]>
+                </notes>
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="Backend &amp; API fonctionnelles" color="#ff9933" meeting="false" start="2026-05-11" duration="10" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Gestion inventaire, logique panier, simulation Drive.]]>
+                </notes>
+                <depend id="112" type="2" difference="0" hardness="Strong"/>
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="112" name="Application mobile / interface utilisateur" color="#8cb6ce" meeting="false" start="2026-05-25" duration="8" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Interface simple pour visualiser stocks et actions.]]>
+                </notes>
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="113" name="Assemblage prototype &amp; tests labo" color="#ff9933" meeting="false" start="2026-06-04" duration="8" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Vérifier que tout fonctionne ensemble.]]>
+                </notes>
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="140" name="Stabilisation &amp; corrections post-revue" color="#8cb6ce" meeting="false" start="2026-06-16" duration="24" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[- corriger les points soulevés en revue
+
+- stabiliser le prototype
+
+- préparer le passage en Beta]]>
+                </notes>
+                <depend id="144" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="114" name="Revue technique Prototype Alpha" color="#ff3333" meeting="true" start="2026-06-16" duration="0" complete="0" thirdDate="2025-11-03" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Décision : prêt pour tests utilisateurs (Prototype Beta) ou non.]]>
+                </notes>
+                <depend id="140" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="3" name="Prototype Beta / Pilot (tests utilisateurs, itérations, partenaire(s) retail)" color="#ff9933" meeting="false" project="true" start="2026-07-20" duration="76" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="144" name="Préparation du pilot (scénarios, métriques, protocole)" color="#ff9933" meeting="false" start="2026-07-20" duration="10" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Définir :
+
+ - critères de succès
+
+ - métriques d’usage
+
+ - cadre RGPD pour les tests utilisateurs]]>
+                </notes>
+                <depend id="149" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="149" name="Déploiement prototypes pilotes" color="#ff9933" meeting="false" start="2026-08-03" duration="15" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Installer les prototypes chez les testeurs (ou sites pilotes).]]>
+                </notes>
+                <depend id="154" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="154" name="Tests utilisateurs &amp; collecte feedback" color="#ff9933" meeting="false" start="2026-08-24" duration="30" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Observer l’usage réel :
+
+- fiabilité détection
+
+- UX
+
+- taux d’erreur
+
+- perception vie privée]]>
+                </notes>
+                <depend id="158" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="158" name="Ajustements fonctionnels &amp; correctifs" color="#8cb6ce" meeting="false" start="2026-10-05" duration="21" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Corriger les points bloquants sans refaire de R&D lourde.]]>
+                </notes>
+                <depend id="161" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="161" name="Go / No-Go Industrialisation" color="#ff3333" meeting="true" start="2026-11-03" duration="0" complete="0" thirdDate="2025-06-02" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Décision formelle :
+
+- on industrialise
+
+- ou on pivote / stoppe]]>
+                </notes>
+                <depend id="182" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="4" name="Industrialisation (DFM/DFT, supply chain, manufacturing plan)" color="#8cb6ce" meeting="false" start="2026-11-03" duration="65" complete="0" thirdDate="2025-12-17" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="182" name="DFM / DFT &amp; design industriel final" color="#ff9933" meeting="false" start="2026-11-03" duration="20" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Produit fabriquable en série.]]>
+                </notes>
+                <depend id="185" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="185" name="Sélection fournisseurs &amp; supply chain" color="#8cb6ce" meeting="false" start="2026-12-01" duration="20" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Sécuriser composants, coûts, délais.]]>
+                </notes>
+                <depend id="192" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="192" name="Préparation manufacturing &amp; QA" color="#ff9933" meeting="false" start="2026-12-29" duration="25" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Process industriel prêt (tests, QA, volumes).]]>
+                </notes>
+                <depend id="195" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="195" name="Revue readiness industrielle" color="#ff3333" meeting="true" start="2027-02-02" duration="0" complete="0" thirdDate="2025-12-01" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Feu vert pour conformité + go-to-market.]]>
+                </notes>
+                <depend id="201" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="21" name="Conformité &amp; sécurité (CE, RGPD, cybersécurité IoT)" color="#ff9933" meeting="false" start="2027-02-02" duration="55" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="201" name="Analyse réglementaire &amp; périmètre conformité" color="#ff9933" meeting="false" start="2027-02-02" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Identifier précisément :
+
+- normes CE applicables
+
+- obligations RGPD
+
+- exigences cybersécurité IoT]]>
+                </notes>
+                <depend id="204" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="204" name="Mise en conformité RGPD (privacy by design)" color="#ff9933" meeting="false" start="2027-02-16" duration="20" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Traitement des données :
+
+- minimisation
+
+- stockage
+
+- consentement
+
+- sécurité]]>
+                </notes>
+                <depend id="207" type="2" difference="0" hardness="Strong"/>
+                <depend id="210" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="207" name="Sécurité IoT &amp; tests de vulnérabilité" color="#ff9933" meeting="false" start="2027-03-16" duration="25" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Sécurisation :
+
+firmware
+
+communications
+
+accès réseau
+
+mises à jour]]>
+                </notes>
+                <depend id="210" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="210" name="Dossier conformité &amp; marquage CE" color="#ff3333" meeting="true" start="2027-04-20" duration="0" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Validation finale :
+
+- conformité atteinte
+
+- produit autorisé à la vente]]>
+                </notes>
+                <depend id="214" type="2" difference="0" hardness="Strong"/>
+                <depend id="217" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="22" name="Go-to-market (pricing, branding, distribution, support)" color="#8cb6ce" meeting="false" start="2027-04-20" duration="35" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" expand="false">
+            <task id="214" name="Définition du pricing &amp; modèle économique" color="#ff9933" meeting="false" start="2027-04-20" duration="10" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Objectifs :
+
+- prix public
+
+- marges
+
+- positionnement premium / grand public
+
+- options B2B / retail]]>
+                </notes>
+                <depend id="225" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="217" name="Branding &amp; supports marketing" color="#ff9933" meeting="false" start="2027-04-20" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Livrables :
+
+- discours produit
+
+- visuels
+
+- messages clés]]>
+                </notes>
+                <depend id="222" type="2" difference="0" hardness="Strong"/>
+                <depend id="225" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="222" name="Mise en place canaux de distribution &amp; support" color="#ff9933" meeting="false" start="2027-05-11" duration="20" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Mise en place :
+
+- distribution (retail / online)
+
+- support client (outils, process)
+
+- onboarding utilisateur]]>
+                </notes>
+                <depend id="225" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="225" name="Validation Go-to-market" color="#ff3333" meeting="true" start="2027-06-08" duration="0" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[Feu vert pour la pré-série.]]>
+                </notes>
+                <depend id="229" type="2" difference="0" hardness="Strong"/>
+                <depend id="232" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="23" name="Pré-série &amp; lancement (petite série, QA, launch)" color="#99ff66" meeting="false" start="2027-06-08" duration="25" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="0" expand="false">
+            <task id="229" name="Lancement de la pré-série (petite production)" color="#ff9933" meeting="false" start="2027-06-08" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[Objectifs :
+
+- produire une quantité limitée
+
+- conditions proches du réel
+
+- identifier défauts industriels précoces]]>
+                </notes>
+            </task>
+            <task id="232" name="QA &amp; contrôle qualité pré-lancement" color="#ff3333" meeting="false" start="2027-06-08" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[- tests matériels
+
+- stabilité logicielle
+
+- conformité finale terrain]]>
+                </notes>
+                <depend id="235" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="235" name="Préparation opérationnelle du lancement" color="#ff9933" meeting="false" start="2027-06-29" duration="10" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[- stock
+
+- support prêt
+
+- procédures SAV
+
+- documentation utilisateur]]>
+                </notes>
+                <depend id="238" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="238" name="Lancement officiel" color="#ff3333" meeting="true" start="2027-07-13" duration="0" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[mise sur le marché effective]]>
+                </notes>
+                <depend id="241" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="24" name="Post-launch (retours, patches, V2 backlog)" color="#cccccc" meeting="false" start="2027-07-13" duration="45" complete="0" thirdDate="2026-08-19" thirdDate-constraint="0" priority="3" expand="false">
+            <task id="241" name="Collecte retours utilisateurs &amp; support initial" color="#ff9933" meeting="false" start="2027-07-13" duration="15" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[- retours utilisateurs
+
+- tickets support
+
+- incidents terrain
+
+- friction UX]]>
+                </notes>
+                <depend id="244" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="244" name="Correctifs critiques &amp; patches rapides" color="#ff3333" meeting="false" start="2027-08-03" duration="20" complete="0" thirdDate="2026-02-02" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[- corrections bloquantes
+
+- stabilité système
+
+- fiabilité perçue]]>
+                </notes>
+                <depend id="247" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="247" name="Analyse post-mortem &amp; backlog V2" color="#8cb6ce" meeting="false" start="2027-08-31" duration="10" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[- ce qui a marché / échoué
+
+- priorisation V2
+
+- vision roadmap future]]>
+                </notes>
+                <depend id="250" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="250" name="Clôture du cycle V1" color="#ff9933" meeting="true" start="2027-09-14" duration="0" complete="0" thirdDate="2026-09-01" thirdDate-constraint="0" priority="2" expand="true">
+                <notes>
+                    <![CDATA[fin officielle du cycle produit V1]]>
+                </notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Chef de projet / Product Owner" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Ingénieur Vision / IA" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Ingénieur Systèmes embarqués / IoT" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Développeur Backend / Mobile" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Designer industriel" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Responsable Sécurité / Privacy" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Responsable Partenariats Retail" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="66" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="96" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="114" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="161" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="185" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="192" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="195" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="201" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="210" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="217" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="225" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="229" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="238" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="241" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="247" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="250" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="254" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="256" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="258" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="262" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="108" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="140" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="149" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="158" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="113" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="149" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="182" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="192" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="229" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="244" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="112" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="158" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="204" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="222" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="241" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="244" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="182" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="217" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="201" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="185" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="222" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="235" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
